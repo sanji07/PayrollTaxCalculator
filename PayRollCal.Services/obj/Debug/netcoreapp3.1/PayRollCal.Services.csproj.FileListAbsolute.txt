@@ -11,3 +11,16 @@ C:\Users\sanch\source\repos\PayRollCal.Services\obj\Debug\netcoreapp3.1\PayRollC
 C:\Users\sanch\source\repos\PayRollCal.Services\obj\Debug\netcoreapp3.1\PayRollCal.Services.csproj.CopyComplete
 C:\Users\sanch\source\repos\PayRollCal.Services\obj\Debug\netcoreapp3.1\PayRollCal.Services.dll
 C:\Users\sanch\source\repos\PayRollCal.Services\obj\Debug\netcoreapp3.1\PayRollCal.Services.pdb
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\bin\Debug\netcoreapp3.1\PayRollCal.Services.deps.json
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\bin\Debug\netcoreapp3.1\PayRollCal.Services.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\bin\Debug\netcoreapp3.1\PayRollCal.Services.pdb
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\bin\Debug\netcoreapp3.1\PayRollCal.Entity.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\bin\Debug\netcoreapp3.1\PayRollCal.Persistence.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\bin\Debug\netcoreapp3.1\PayRollCal.Entity.pdb
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\bin\Debug\netcoreapp3.1\PayRollCal.Persistence.pdb
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\obj\Debug\netcoreapp3.1\PayRollCal.Services.csprojAssemblyReference.cache
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\obj\Debug\netcoreapp3.1\PayRollCal.Services.AssemblyInfoInputs.cache
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\obj\Debug\netcoreapp3.1\PayRollCal.Services.AssemblyInfo.cs
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\obj\Debug\netcoreapp3.1\PayRollCal.Services.csproj.CopyComplete
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\obj\Debug\netcoreapp3.1\PayRollCal.Services.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Services\obj\Debug\netcoreapp3.1\PayRollCal.Services.pdb
