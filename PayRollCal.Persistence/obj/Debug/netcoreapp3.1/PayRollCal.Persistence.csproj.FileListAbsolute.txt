@@ -1,0 +1,11 @@
+C:\Users\sanch\source\repos\PayRollCal.Persistence\bin\Debug\netcoreapp3.1\PayRollCal.Persistence.deps.json
+C:\Users\sanch\source\repos\PayRollCal.Persistence\bin\Debug\netcoreapp3.1\PayRollCal.Persistence.dll
+C:\Users\sanch\source\repos\PayRollCal.Persistence\bin\Debug\netcoreapp3.1\PayRollCal.Persistence.pdb
+C:\Users\sanch\source\repos\PayRollCal.Persistence\bin\Debug\netcoreapp3.1\PayRollCal.Entity.dll
+C:\Users\sanch\source\repos\PayRollCal.Persistence\bin\Debug\netcoreapp3.1\PayRollCal.Entity.pdb
+C:\Users\sanch\source\repos\PayRollCal.Persistence\obj\Debug\netcoreapp3.1\PayRollCal.Persistence.csprojAssemblyReference.cache
+C:\Users\sanch\source\repos\PayRollCal.Persistence\obj\Debug\netcoreapp3.1\PayRollCal.Persistence.AssemblyInfoInputs.cache
+C:\Users\sanch\source\repos\PayRollCal.Persistence\obj\Debug\netcoreapp3.1\PayRollCal.Persistence.AssemblyInfo.cs
+C:\Users\sanch\source\repos\PayRollCal.Persistence\obj\Debug\netcoreapp3.1\PayRollCal.Persistence.csproj.CopyComplete
+C:\Users\sanch\source\repos\PayRollCal.Persistence\obj\Debug\netcoreapp3.1\PayRollCal.Persistence.dll
+C:\Users\sanch\source\repos\PayRollCal.Persistence\obj\Debug\netcoreapp3.1\PayRollCal.Persistence.pdb
