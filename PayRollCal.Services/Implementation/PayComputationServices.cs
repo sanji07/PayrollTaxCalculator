@@ -7,9 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 
-namespace PayRollCal.Services
+namespace PayRollCal.Services.Implementation
 {
-    public class PayComputationServices
+    public class PayComputationServices:IPayComputationService
     {
         private readonly ApplicationDbContext _context;
         private decimal contractualEarnings;
