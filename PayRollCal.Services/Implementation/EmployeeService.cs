@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace PayRollCal.Services.Implementation
 {
@@ -82,5 +83,13 @@ namespace PayRollCal.Services.Implementation
             return studentAmount;
         }
 
+        public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()
+        {
+            return GetAll().Select(emp => new SelectListItem()
+            {
+                Text = emp.Fullname,
+                Value = emp.Id.ToString(),
+            });
+        }
     }
 }

@@ -54,7 +54,8 @@ namespace PayRollCal.Services.Implementation
 
         public PaymentRecord GetByID(int id) => _context.PaymentRecords.Where(pay => pay.Id == id).FirstOrDefault();
 
-
+        public TaxYear GetTaxYearById(int id) => _context.TaxYears.Where(year => year.Id == id).FirstOrDefault();
+        
         public decimal NetPay(decimal totalEarnings, decimal totalDeduction)
         {
             netPay = totalEarnings - totalDeduction;

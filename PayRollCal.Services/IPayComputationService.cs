@@ -11,6 +11,8 @@ namespace PayRollCal.Services
     {
         Task CreateAsync(PaymentRecord paymentRecord);
         PaymentRecord GetByID(int id);
+        TaxYear GetTaxYearById(int id);
+
         IEnumerable<PaymentRecord> GetAll();
         IEnumerable<SelectListItem> GetAllTaxYear();
         decimal OvertimeHours(decimal hoursWorked, decimal contractualHours);

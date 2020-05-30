@@ -1,43 +1,50 @@
-﻿using System;
+﻿using PayRollCal.Entity;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace PayRollCal.Entity
+namespace PayRollCal.Models
 {
-    public class PaymentRecord
+    public class PaymentRecordDetailViewModel
     {
         public int Id { get; set; }
         public int EmployeeId { get; set; }
         public EmployeeDetails EmployeeDetails { get; set; }
+        [DataType(DataType.Date), Display(Name = "Pay Date")]
         public DateTime PayDate { get; set; }
+        [Display(Name = "Month")]
         public string Paymonth { get; set; }
-        [ForeignKey("TaxYear")]
+        [Display(Name = "TaxYear")]
         public int TaxYearId { get; set; }
+        public string Year { get; set; }
         public TaxYear TaxYear { get; set; }
-        public string TaxCode { get; set; }
-        [Column(TypeName = "money")]
+        public string TaxCode { get; set; } 
+        [Display(Name = "Hourly rate")]
         public decimal Hourlyrate { get; set; }
-        [Column(TypeName = "decimal(18,2)")]
+        [Display(Name = "Hours Worked")]
         public decimal HoursWoreked { get; set; }
-        [Column(TypeName = "decimal(18,2)")]
+        [Display(Name = "Contractual Hours")]
         public decimal ContrctHours { get; set; }
-        [Column(TypeName = "decimal(18,2)")]
+        [Display(Name = "Overtime Hours")]
         public decimal OvertimeHours { get; set; }
-        [Column(TypeName = "money")]
+        public decimal OvertimeRate { get; set; }
+        [Display(Name = "Contractual Earning")]
         public decimal Contrctearning { get; set; }
-        [Column(TypeName = "money")]
+        [Display(Name = "Overtime Earning")]
         public decimal Overtimeearning { get; set; }
-        [Column(TypeName = "money")]
+        [Display(Name = "Tax")]
         public decimal Tax { get; set; }
-        [Column(TypeName = "money")]
+        [Display(Name = "Total Earnings")]
         public decimal TotalEarnings { get; set; }
-        [Column(TypeName = "money")]
+        [Display(Name = "Total Deduction")]
         public decimal TotalDeduction { get; set; }
-        [Column(TypeName = "money")]
+        [Display(Name = "Net Pay")]
         public decimal NetPay { get; set; }
-        [Column(TypeName ="money")]
+
         public Nullable<decimal> SLC { get; set; }
+        [Display(Name = "Full Name")]
         public string FullName { get; set; }
     }
 }
