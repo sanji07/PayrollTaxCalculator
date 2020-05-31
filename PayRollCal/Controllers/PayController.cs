@@ -54,7 +54,7 @@ namespace PayRollCal.Controllers
             ViewBag.employees = _employeeService.GetAllEmployeesForPayroll();
             ViewBag.taxYears = _payComputationService.GetAllTaxYear();
             var model = new PaymentRecordCreateViewModel();
-            return View();
+            return View(model);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -79,7 +79,7 @@ namespace PayRollCal.Controllers
                     Overtimeearning = ovrtimeearn = _payComputationService.OvertimeEarnings(_payComputationService.OvertimeRate(model.Hourlyrate), ovrtime),
                     TotalEarnings = totalearn = _payComputationService.TotalEarnings(ovrtimeearn, contrctearn),
                     Tax = tax = _taxService.TaxAmount(totalearn),
-                    SLC = slc = _employeeService.StudentLoanRepaymentAmount(model.Id, totalearn),
+                    SLC = slc = _employeeService.StudentLoanRepaymentAmount(model.EmployeeId, totalearn),
                     TotalDeduction =totded= _payComputationService.TotalDeduction(tax, slc),
                     NetPay=_payComputationService.NetPay(totalearn,totded)
                 };

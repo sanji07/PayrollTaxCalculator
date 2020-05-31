@@ -8,8 +8,9 @@ namespace PayRollCal.Entity
     public class PaymentRecord
     {
         public int Id { get; set; }
+        [ForeignKey("EmployeeDetails")]
         public int EmployeeId { get; set; }
-        public EmployeeDetails EmployeeDetails { get; set; }
+        public Employee EmployeeDetails { get; set; }
         public DateTime PayDate { get; set; }
         public string Paymonth { get; set; }
         [ForeignKey("TaxYear")]

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PayRollCal.Entity
 {
-    public class EmployeeDetails
+    public class Employee
     {
         public int Id { get; set; }
         [Required]

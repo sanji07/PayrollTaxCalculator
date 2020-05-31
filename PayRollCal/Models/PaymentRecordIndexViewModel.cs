@@ -11,7 +11,7 @@ namespace PayRollCal.Models
     {
         public int Id { get; set; }
         public int EmployeeId { get; set; }
-        public EmployeeDetails EmployeeDetails { get; set; }
+        public Employee EmployeeDetails { get; set; }
         [Display(Name="Name")]
         public string FullName { get; set; }
         [Display(Name ="Pay Date")]

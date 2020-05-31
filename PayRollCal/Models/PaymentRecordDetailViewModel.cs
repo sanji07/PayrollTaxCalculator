@@ -11,7 +11,9 @@ namespace PayRollCal.Models
     {
         public int Id { get; set; }
         public int EmployeeId { get; set; }
-        public EmployeeDetails EmployeeDetails { get; set; }
+        public Employee EmployeeDetails { get; set; }
+        [Display(Name = "Employee")]
+        public string FullName { get; set; }
         [DataType(DataType.Date), Display(Name = "Pay Date")]
         public DateTime PayDate { get; set; }
         [Display(Name = "Month")]
@@ -44,7 +46,6 @@ namespace PayRollCal.Models
         public decimal NetPay { get; set; }
 
         public Nullable<decimal> SLC { get; set; }
-        [Display(Name = "Full Name")]
-        public string FullName { get; set; }
+  
     }
 }

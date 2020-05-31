@@ -8,3 +8,13 @@ C:\Users\sanch\source\repos\PayRollCal.Entity\bin\Debug\netcoreapp3.1\PayRollCal
 C:\Users\sanch\source\repos\PayRollCal.Entity\bin\Debug\netcoreapp3.1\PayRollCal.Entity.pdb
 C:\Users\sanch\source\repos\PayRollCal.Entity\obj\Debug\netcoreapp3.1\PayRollCal.Entity.dll
 C:\Users\sanch\source\repos\PayRollCal.Entity\obj\Debug\netcoreapp3.1\PayRollCal.Entity.pdb
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Entity\bin\Debug\netcoreapp3.1\PayRollCal.Entity.deps.json
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Entity\bin\Debug\netcoreapp3.1\PayRollCal.Entity.runtimeconfig.json
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Entity\bin\Debug\netcoreapp3.1\PayRollCal.Entity.runtimeconfig.dev.json
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Entity\bin\Debug\netcoreapp3.1\PayRollCal.Entity.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Entity\bin\Debug\netcoreapp3.1\PayRollCal.Entity.pdb
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Entity\obj\Debug\netcoreapp3.1\PayRollCal.Entity.csprojAssemblyReference.cache
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Entity\obj\Debug\netcoreapp3.1\PayRollCal.Entity.AssemblyInfoInputs.cache
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Entity\obj\Debug\netcoreapp3.1\PayRollCal.Entity.AssemblyInfo.cs
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Entity\obj\Debug\netcoreapp3.1\PayRollCal.Entity.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal.Entity\obj\Debug\netcoreapp3.1\PayRollCal.Entity.pdb

@@ -49,7 +49,7 @@ namespace PayRollCal.Controllers
         {
             if (ModelState.IsValid)
             {
-                var employee = new EmployeeDetails
+                var employee = new Employee
                 {
                     Id = model.Id,
                     EmpId = model.EmpId,

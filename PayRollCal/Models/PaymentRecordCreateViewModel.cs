@@ -11,8 +11,10 @@ namespace PayRollCal.Models
     public class PaymentRecordCreateViewModel
     {
         public int Id { get; set; }
+        [Display(Name ="Full Name")]
         public int EmployeeId { get; set; }
-        public EmployeeDetails EmployeeDetails { get; set; }
+        public Employee EmployeeDetails { get; set; }
+        public string FullName { get; set; }
         [DataType(DataType.Date), Display(Name = "Pay Date")]
         public DateTime PayDate { get; set; } = DateTime.UtcNow;
         [Display(Name = "Month")]
@@ -43,6 +45,6 @@ namespace PayRollCal.Models
         public decimal NetPay { get; set; }
         
         public Nullable<decimal> SLC { get; set; }
-        public string FullName { get; set; }
+        
     }
 }

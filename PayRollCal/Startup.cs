@@ -37,6 +37,8 @@ namespace PayRollCal
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<IPayComputationService, PayComputationServices>();
+            services.AddScoped<ITaxService, TaxComputation>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

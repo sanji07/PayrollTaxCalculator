@@ -14,7 +14,7 @@ namespace PayRollCal.Persistence
         {
         }
         public DbSet<PaymentRecord> PaymentRecords { get; set; }
-        public DbSet<EmployeeDetails> EmployeeDetails { get; set; }
+        public DbSet<Employee> EmployeeDetails { get; set; }
         public DbSet<TaxYear> TaxYears { get; set; }
     }
 }

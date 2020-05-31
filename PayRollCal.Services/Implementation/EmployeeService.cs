@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace PayRollCal.Services.Implementation
 {
@@ -18,12 +18,12 @@ namespace PayRollCal.Services.Implementation
         {
             _context = context;
         }
-        public async Task CreateAsync(EmployeeDetails newEmployee)
+        public async Task CreateAsync(Employee newEmployee)
         {
             await _context.EmployeeDetails.AddAsync(newEmployee);
             await _context.SaveChangesAsync();
         }
-        public EmployeeDetails GetById(int employeeId) =>
+        public Employee GetById(int employeeId) =>
             _context.EmployeeDetails.Where(e => e.Id == employeeId).FirstOrDefault();
 
 
@@ -34,10 +34,10 @@ namespace PayRollCal.Services.Implementation
             await _context.SaveChangesAsync();
         }
 
-        public IEnumerable<EmployeeDetails> GetAll() =>
+        public IEnumerable<Employee> GetAll() =>
             _context.EmployeeDetails;
 
-        public async Task UpdateAsync(EmployeeDetails employeeDet)
+        public async Task UpdateAsync(Employee employeeDet)
         {
             _context.Update(employeeDet);
             await _context.SaveChangesAsync();
@@ -85,7 +85,7 @@ namespace PayRollCal.Services.Implementation
 
         public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()
         {
-            return GetAll().Select(emp => new SelectListItem()
+            return GetAll().Select(emp => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem()
             {
                 Text = emp.Fullname,
                 Value = emp.Id.ToString(),

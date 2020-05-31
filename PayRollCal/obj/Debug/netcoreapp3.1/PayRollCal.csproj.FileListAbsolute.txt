@@ -255,3 +255,17 @@ C:\Users\sanch\source\repos\PayRoll\PayRollCal\obj\Debug\netcoreapp3.1\Razor\Vie
 C:\Users\sanch\source\repos\PayRoll\PayRollCal\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs
 C:\Users\sanch\source\repos\PayRoll\PayRollCal\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Detail.cshtml.g.cs
 C:\Users\sanch\source\repos\PayRoll\PayRollCal\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\obj\Debug\netcoreapp3.1\Razor\Views\Pay\Index.cshtml.g.cs
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\obj\Debug\netcoreapp3.1\Razor\Views\Pay\Create.cshtml.g.cs
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\sanch\source\repos\PayRoll\PayRollCal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

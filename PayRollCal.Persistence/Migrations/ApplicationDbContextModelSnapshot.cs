@@ -308,11 +308,11 @@ namespace PayRollCal.Persistence.Migrations
                     b.Property<decimal>("Contrctearning")
                         .HasColumnType("money");
 
-                    b.Property<int?>("EmployeeDetailsId")
-                        .HasColumnType("int");
-
                     b.Property<int>("EmployeeId")
                         .HasColumnType("int");
+
+                    b.Property<string>("FullName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Hourlyrate")
                         .HasColumnType("money");
@@ -355,7 +355,7 @@ namespace PayRollCal.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EmployeeDetailsId");
+                    b.HasIndex("EmployeeId");
 
                     b.HasIndex("TaxYearId");
 
@@ -432,7 +432,9 @@ namespace PayRollCal.Persistence.Migrations
                 {
                     b.HasOne("PayRollCal.Entity.EmployeeDetails", "EmployeeDetails")
                         .WithMany("PaymentRecords")
-                        .HasForeignKey("EmployeeDetailsId");
+                        .HasForeignKey("EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("PayRollCal.Entity.TaxYear", "TaxYear")
                         .WithMany()
